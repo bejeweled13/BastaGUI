@@ -10,6 +10,16 @@ import java.util.Objects;
 import mx.paradigmmasters.bastagui.control.MainControl;
 import mx.paradigmmasters.bastagui.model.Constants;
 
+/**
+ * Vista principal del juego Basta.
+ * Esta clase crea y maneja la interfaz de usuario del juego, incluyendo campos de entrada para respuestas,
+ * visualización del estado del juego y puntuación total.
+ *
+ * @author García Martínez María Fernanda
+ * @author Hernández Meza Víctor Yahir
+ * @author Márquez López María Fernanda
+ * @author Martínez Florez Uri
+ */
 public class GameView extends JFrame implements ActionListener {
     private MainControl mainControl;
     private JPanel pStatus;
@@ -25,6 +35,13 @@ public class GameView extends JFrame implements ActionListener {
     private JButton bBasta;
     private JPanel pPoints;
     private JTextField tfPoints;
+
+    /**
+     * Constructor que inicializa la vista del juego con todos los componentes de la interfaz de usuario.
+     *
+     * @param mainControl Control principal del juego, utilizado para la interacción con la lógica del juego.
+     * @throws HeadlessException Si GraphicsEnvironment.isHeadless() devuelve true.
+     */
     public GameView(MainControl mainControl) throws HeadlessException {
         this.mainControl = mainControl;
         this.setTitle("Basta");
@@ -110,6 +127,11 @@ public class GameView extends JFrame implements ActionListener {
         this.setLocationRelativeTo(null);
     }
 
+    /**
+     * Actualiza el estado visual del juego basado en el estado proporcionado.
+     *
+     * @param status El estado del juego a ser visualizado.
+     */
     public void setStatus(int status){
         ImageIcon iconResized;
         Image image;
@@ -141,10 +163,20 @@ public class GameView extends JFrame implements ActionListener {
         }
     }
 
+    /**
+     * Establece los puntos totales en la interfaz de usuario.
+     *
+     * @param points Los puntos totales a mostrar.
+     */
     public void setTotalPoints(int points){
         this.tfPoints.setText(String.valueOf(points));
     }
 
+    /**
+     * Establece la letra actual para la ronda del juego y actualiza la interfaz de usuario.
+     *
+     * @param letter La letra para la ronda actual.
+     */
     public void setLetter(String letter){
         this.lStatus.setText("Letra de la ronda: ");
         this.lStatusImage.setIcon(null);
@@ -158,6 +190,15 @@ public class GameView extends JFrame implements ActionListener {
         this.tfColor.setEditable(true);
     }
 
+    /**
+     * Actualiza la interfaz de usuario con las calificaciones de las respuestas actuales.
+     *
+     * @param nombre Puntuación para la categoría 'Nombre'.
+     * @param florFruto Puntuación para la categoría 'Flor o Fruto'.
+     * @param pais Puntuación para la categoría 'País'.
+     * @param animal Puntuación para la categoría 'Animal'.
+     * @param color Puntuación para la categoría 'Color'.
+     */
     public void setCalificacion(int nombre, int florFruto, int pais, int animal, int color){
         this.tfPtsNombre.setText(String.valueOf(nombre));
         this.tfPtsFlorFruto.setText(String.valueOf(florFruto));
@@ -166,7 +207,11 @@ public class GameView extends JFrame implements ActionListener {
         this.tfPtsColor.setText(String.valueOf(color));
     }
 
-
+    /**
+     * Maneja las acciones de los botones en la interfaz de usuario.
+     *
+     * @param actionEvent El evento de acción generado.
+     */
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
         try {
