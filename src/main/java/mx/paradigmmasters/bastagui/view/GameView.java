@@ -5,6 +5,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.IOException;
+import java.util.Objects;
 
 import mx.paradigmmasters.bastagui.control.MainControl;
 import mx.paradigmmasters.bastagui.model.Constants;
@@ -33,7 +34,7 @@ public class GameView extends JFrame implements ActionListener {
         this.setSize(400, 700);
         this.setLocationRelativeTo(null);
 
-        ImageIcon icon = new ImageIcon(getClass().getResource("/icono.png"));
+        ImageIcon icon = new ImageIcon(Objects.requireNonNull(getClass().getResource("/icono.png")));
         setIconImage(icon.getImage());
 
         // Initialize all JPanels

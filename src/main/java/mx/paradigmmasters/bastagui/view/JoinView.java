@@ -6,6 +6,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Objects;
 
 public class JoinView extends JFrame implements ActionListener {
     private MainControl control;
@@ -20,7 +21,7 @@ public class JoinView extends JFrame implements ActionListener {
         this.setSize(400, 400);
         this.setLocationRelativeTo(null);
 
-        ImageIcon icon = new ImageIcon(getClass().getResource("/icono.png"));
+        ImageIcon icon = new ImageIcon(Objects.requireNonNull(getClass().getResource("/icono.png")));
         setIconImage(icon.getImage());
 
         this.bJoin = new JButton("Unirse al juego");
