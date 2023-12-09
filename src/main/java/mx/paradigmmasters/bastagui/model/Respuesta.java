@@ -1,8 +1,26 @@
 package mx.paradigmmasters.bastagui.model;
 
+/**
+ * Clase que representa las respuestas de un jugador en el juego.
+ * Almacena respuestas en diferentes categorías como nombre, flor o fruto, país, animal y color.
+ *
+ * @author García Martínez María Fernanda
+ * @author Hernández Meza Víctor Yahir
+ * @author Márquez López María Fernanda
+ * @author Martínez Florez Uri
+ */
 public class Respuesta {
     private String nombre, florFruto, pais, animal, color;
 
+    /**
+     * Constructor que inicializa una nueva instancia de Respuesta con valores específicos para cada categoría.
+     *
+     * @param nombre El nombre propuesto por el jugador.
+     * @param florFruto La flor o fruto propuesto por el jugador.
+     * @param pais El país propuesto por el jugador.
+     * @param animal El animal propuesto por el jugador.
+     * @param color El color propuesto por el jugador.
+     */
     public Respuesta(String nombre, String florFruto, String pais, String animal, String color) {
         this.nombre = nombre;
         this.florFruto = florFruto;

@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dafa7f4-33d3-4e3e-93d7-b13e7d3b064f" name="Changes" comment="Documentación en Javadoc de la clase Connection" />
+    <list default="true" id="4dafa7f4-33d3-4e3e-93d7-b13e7d3b064f" name="Changes" comment="Documentación en Javadoc de la clase Letra">
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/paradigmmasters/bastagui/model/Respuesta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/paradigmmasters/bastagui/model/Respuesta.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,7 +187,35 @@
       <option name="project" value="LOCAL" />
       <updated>1702159575775</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Documentación en Javadoc de la clase Constants">
+      <created>1702159668865</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1702159668865</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Documentación en Javadoc de la clase Estado">
+      <created>1702159721651</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1702159721651</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Documentación en Javadoc de la clase JsonSerializer">
+      <created>1702159826781</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1702159826781</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Documentación en Javadoc de la clase Letra">
+      <created>1702159880679</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1702159880679</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,6 +247,10 @@
     <MESSAGE value="Documentación en Javadoc de la clase Main Control" />
     <MESSAGE value="Documentación en Javadoc de la clase Calificacion" />
     <MESSAGE value="Documentación en Javadoc de la clase Connection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Documentación en Javadoc de la clase Connection" />
+    <MESSAGE value="Documentación en Javadoc de la clase Constants" />
+    <MESSAGE value="Documentación en Javadoc de la clase Estado" />
+    <MESSAGE value="Documentación en Javadoc de la clase JsonSerializer" />
+    <MESSAGE value="Documentación en Javadoc de la clase Letra" />
+    <option name="LAST_COMMIT_MESSAGE" value="Documentación en Javadoc de la clase Letra" />
   </component>
 </project>
