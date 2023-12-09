@@ -17,6 +17,7 @@ public class JoinView extends JFrame implements ActionListener {
         this.setVisible(true);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setLayout(new GridLayout(4,1));
+        this.setSize(400, 400);
         this.setLocationRelativeTo(null);
 
         ImageIcon icon = new ImageIcon(getClass().getResource("/icono.png"));
