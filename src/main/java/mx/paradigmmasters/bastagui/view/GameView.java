@@ -42,8 +42,10 @@ public class GameView extends JFrame implements ActionListener {
 
         // Initialize components of Status Panel
         this.lStatus = new JLabel("Estado");
-        this.lStatusImage = new JLabel(new ImageIcon(Objects.requireNonNull(getClass().getResource("/cargando.png"))));
-        this.lStatusImage.setBackground(Color.YELLOW);
+        ImageIcon originalIcon = new ImageIcon(Objects.requireNonNull(getClass().getResource("/cargando.png")));
+        Image resizedImage = originalIcon.getImage().getScaledInstance(300, 169, Image.SCALE_SMOOTH);
+        this.lStatusImage = new JLabel(new ImageIcon(resizedImage));
+        //this.lStatusImage.setBackground(Color.YELLOW);
         this.lStatusImage.setEnabled(true);
         this.pStatus.add(this.lStatus);
         this.pStatus.add(this.lStatusImage);
