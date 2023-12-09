@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dafa7f4-33d3-4e3e-93d7-b13e7d3b064f" name="Changes" comment="Documentación en Javadoc de la clase Letra">
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/paradigmmasters/bastagui/model/Respuesta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/paradigmmasters/bastagui/model/Respuesta.java" afterDir="false" />
-    </list>
+    <list default="true" id="4dafa7f4-33d3-4e3e-93d7-b13e7d3b064f" name="Changes" comment="Documentación en Javadoc de la clase JoinView" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -215,7 +213,35 @@
       <option name="project" value="LOCAL" />
       <updated>1702159880679</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Documentación en Javadoc de la clase Respuesta">
+      <created>1702159944895</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1702159944895</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Documentación en Javadoc de la clase ListenerThread">
+      <created>1702159998558</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1702159998558</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Documentación en Javadoc de la clase GameView">
+      <created>1702160148087</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1702160148087</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Documentación en Javadoc de la clase JoinView">
+      <created>1702160230332</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1702160230332</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,6 +277,10 @@
     <MESSAGE value="Documentación en Javadoc de la clase Estado" />
     <MESSAGE value="Documentación en Javadoc de la clase JsonSerializer" />
     <MESSAGE value="Documentación en Javadoc de la clase Letra" />
-    <option name="LAST_COMMIT_MESSAGE" value="Documentación en Javadoc de la clase Letra" />
+    <MESSAGE value="Documentación en Javadoc de la clase Respuesta" />
+    <MESSAGE value="Documentación en Javadoc de la clase ListenerThread" />
+    <MESSAGE value="Documentación en Javadoc de la clase GameView" />
+    <MESSAGE value="Documentación en Javadoc de la clase JoinView" />
+    <option name="LAST_COMMIT_MESSAGE" value="Documentación en Javadoc de la clase JoinView" />
   </component>
 </project>
