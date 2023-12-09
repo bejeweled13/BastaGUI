@@ -87,6 +87,9 @@ public class GameView extends JFrame implements ActionListener {
 
         // Initialize Button component
         this.bBasta = new JButton("¡BASTA!");
+        this.bBasta.setFont(new Font("Arial", Font.BOLD, 50));
+        Color lightBrown = new Color(201, 172, 139);
+        bBasta.setBackground(lightBrown);
         this.bBasta.addActionListener(this);
 
         // Initialize components of Points Panel

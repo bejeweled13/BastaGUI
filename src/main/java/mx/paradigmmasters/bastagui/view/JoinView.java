@@ -23,6 +23,9 @@ public class JoinView extends JFrame implements ActionListener {
         setIconImage(icon.getImage());
 
         this.bJoin = new JButton("Unirse al juego");
+        this.bJoin.setFont(new Font("Arial", Font.BOLD, 30));
+        Color lightBrown = new Color(201, 172, 139);
+        bJoin.setBackground(lightBrown);
         this.bJoin.addActionListener(this);
         this.tfUsername = new JTextField();
 
