@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dafa7f4-33d3-4e3e-93d7-b13e7d3b064f" name="Changes" comment="Cambiar el tamaño de la letra de la ronda">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cargando.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cargando.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/esperandoLetra.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/esperandoLetra.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/finalizado.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/finalizado.png" afterDir="false" />
-    </list>
+    <list default="true" id="4dafa7f4-33d3-4e3e-93d7-b13e7d3b064f" name="Changes" comment="Cambiar imágenes de estados" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702149474834</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Cambiar imágenes de estados">
+      <created>1702150729495</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1702150729495</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +192,7 @@
     <MESSAGE value="Cambiar &quot;this.setVisible(true)&quot; al final del constructor para evitar que la ventana aparezca en blanco." />
     <MESSAGE value="Redimensionar primera imagen de cargado" />
     <MESSAGE value="Cambiar el tamaño de la letra de la ronda" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambiar el tamaño de la letra de la ronda" />
+    <MESSAGE value="Cambiar imágenes de estados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambiar imágenes de estados" />
   </component>
 </project>
