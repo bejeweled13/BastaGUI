@@ -148,6 +148,7 @@ public class GameView extends JFrame implements ActionListener {
     public void setLetter(String letter){
         this.lStatus.setText("Letra de la ronda: ");
         this.lStatusImage.setIcon(null);
+        this.lStatusImage.setFont(new Font("Arial", Font.BOLD, 40));
         this.lStatusImage.setText(letter);
         this.bBasta.setEnabled(true);
         this.tfNombre.setEditable(true);

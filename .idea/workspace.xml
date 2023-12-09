@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dafa7f4-33d3-4e3e-93d7-b13e7d3b064f" name="Changes" comment="Cambiar &quot;this.setVisible(true)&quot; al final del constructor para evitar que la ventana aparezca en blanco.">
+    <list default="true" id="4dafa7f4-33d3-4e3e-93d7-b13e7d3b064f" name="Changes" comment="Redimensionar primera imagen de cargado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mx/paradigmmasters/bastagui/view/GameView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/paradigmmasters/bastagui/view/GameView.java" afterDir="false" />
     </list>
@@ -146,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702147932170</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Redimensionar primera imagen de cargado">
+      <created>1702148862862</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1702148862862</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +179,7 @@
     <MESSAGE value="Cambiar los estados de etiquetas a imágenes. Añadir las imágenes a la carpeta sources y ajustar su tamaño al textfield." />
     <MESSAGE value="Intercambiar entre etiquetas e imágenes según sea el caso que se elija para el estado." />
     <MESSAGE value="Cambiar &quot;this.setVisible(true)&quot; al final del constructor para evitar que la ventana aparezca en blanco." />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambiar &quot;this.setVisible(true)&quot; al final del constructor para evitar que la ventana aparezca en blanco." />
+    <MESSAGE value="Redimensionar primera imagen de cargado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redimensionar primera imagen de cargado" />
   </component>
 </project>
