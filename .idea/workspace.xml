@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dafa7f4-33d3-4e3e-93d7-b13e7d3b064f" name="Changes" comment="Usar opción más segura para el ícono de la ventana" />
+    <list default="true" id="4dafa7f4-33d3-4e3e-93d7-b13e7d3b064f" name="Changes" comment="Quitar pack() para poder modificar el tamaño de la ventana">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cargando.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/esperandoLetra.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/paradigmmasters/bastagui/view/GameView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/paradigmmasters/bastagui/view/GameView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/paradigmmasters/bastagui/view/JoinView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/paradigmmasters/bastagui/view/JoinView.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702091456419</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Quitar pack() para poder modificar el tamaño de la ventana">
+      <created>1702091661423</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702091661423</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,6 +118,7 @@
     <MESSAGE value="Cambiar ícono de la ventana" />
     <MESSAGE value="Definir tamaño y centrar la ventana" />
     <MESSAGE value="Usar opción más segura para el ícono de la ventana" />
-    <option name="LAST_COMMIT_MESSAGE" value="Usar opción más segura para el ícono de la ventana" />
+    <MESSAGE value="Quitar pack() para poder modificar el tamaño de la ventana" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quitar pack() para poder modificar el tamaño de la ventana" />
   </component>
 </project>

@@ -31,8 +31,6 @@ public class GameView extends JFrame implements ActionListener {
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setVisible(true);
         this.setLayout(new GridLayout(4,1));
-        this.setSize(400, 700);
-        this.setLocationRelativeTo(null);
 
         ImageIcon icon = new ImageIcon(Objects.requireNonNull(getClass().getResource("/icono.png")));
         setIconImage(icon.getImage());
@@ -103,7 +101,8 @@ public class GameView extends JFrame implements ActionListener {
         this.add(this.bBasta);
         this.add(this.pPoints);
 
-
+        this.setSize(400, 700);
+        this.setLocationRelativeTo(null);
     }
 
     public void setStatus(int status){
