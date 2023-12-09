@@ -14,7 +14,7 @@ public class GameView extends JFrame implements ActionListener {
     private MainControl mainControl;
     private JPanel pStatus;
     private JLabel lStatus;
-    private JTextField tfStatus;
+    private JLabel lStatusImage;
     private JPanel pAnswers;
     private JTextField tfNombre, tfFlorFruto, tfPais, tfAnimal, tfColor;
     private JTextField tfPtsNombre;
@@ -42,11 +42,11 @@ public class GameView extends JFrame implements ActionListener {
 
         // Initialize components of Status Panel
         this.lStatus = new JLabel("Estado");
-        this.tfStatus = new JTextField("Cargando");
-        this.tfStatus.setBackground(Color.YELLOW);
-        this.tfStatus.setEditable(false);
+        this.lStatusImage = new JLabel(new ImageIcon(Objects.requireNonNull(getClass().getResource("/cargando.png"))));
+        this.lStatusImage.setBackground(Color.YELLOW);
+        this.lStatusImage.setEnabled(true);
         this.pStatus.add(this.lStatus);
-        this.pStatus.add(this.tfStatus);
+        this.pStatus.add(this.lStatusImage);
 
         // Initialize components of Answers Panel
         this.tfNombre = new JTextField();
