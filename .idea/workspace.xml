@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dafa7f4-33d3-4e3e-93d7-b13e7d3b064f" name="Changes" comment="Documentación en Javadoc de la clase Main Control" />
+    <list default="true" id="4dafa7f4-33d3-4e3e-93d7-b13e7d3b064f" name="Changes" comment="Documentación en Javadoc de la clase Connection" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,7 +171,21 @@
       <option name="project" value="LOCAL" />
       <updated>1702159178061</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Documentación en Javadoc de la clase Calificacion">
+      <created>1702159465411</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1702159465411</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Documentación en Javadoc de la clase Connection">
+      <created>1702159575775</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1702159575775</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,6 +215,8 @@
     <MESSAGE value="Cambiar el tamaño de la letra de la ronda" />
     <MESSAGE value="Cambiar imágenes de estados" />
     <MESSAGE value="Documentación en Javadoc de la clase Main Control" />
-    <option name="LAST_COMMIT_MESSAGE" value="Documentación en Javadoc de la clase Main Control" />
+    <MESSAGE value="Documentación en Javadoc de la clase Calificacion" />
+    <MESSAGE value="Documentación en Javadoc de la clase Connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Documentación en Javadoc de la clase Connection" />
   </component>
 </project>
