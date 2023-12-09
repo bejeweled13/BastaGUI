@@ -15,7 +15,6 @@ public class JoinView extends JFrame implements ActionListener {
     public JoinView(MainControl control) throws HeadlessException {
         this.control = control;
         this.setTitle("Basta");
-        this.setVisible(true);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setLayout(new GridLayout(4,1));
 
@@ -43,6 +42,7 @@ public class JoinView extends JFrame implements ActionListener {
 
         this.setSize(400, 400);
         this.setLocationRelativeTo(null);
+        this.setVisible(true);
     }
 
     @Override

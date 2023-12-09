@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dafa7f4-33d3-4e3e-93d7-b13e7d3b064f" name="Changes" comment="Cambiar tfStatus a JLabel y por consiguiente, renombrarlo con lStatusImage">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/cargando.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/esperandoLetra.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/finalizado.png" afterDir="false" />
+    <list default="true" id="4dafa7f4-33d3-4e3e-93d7-b13e7d3b064f" name="Changes" comment="Intercambiar entre etiquetas e imágenes según sea el caso que se elija para el estado.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/paradigmmasters/bastagui/view/GameView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/paradigmmasters/bastagui/view/GameView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1702108595989</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Cambiar los estados de etiquetas a imágenes. Añadir las imágenes a la carpeta sources y ajustar su tamaño al textfield.">
+      <created>1702110850156</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702110850156</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Intercambiar entre etiquetas e imágenes según sea el caso que se elija para el estado.">
+      <created>1702110887965</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1702110887965</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,6 +161,8 @@
     <MESSAGE value="Cambiar tamaño de letra y color en botones Unirse al Juego y Basta" />
     <MESSAGE value="Cambiar tamaño de la letra en la etiqueta &quot;Basta online&quot; y &quot;Selecciona un nombre de usuario&quot; en la clase JoinView" />
     <MESSAGE value="Cambiar tfStatus a JLabel y por consiguiente, renombrarlo con lStatusImage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambiar tfStatus a JLabel y por consiguiente, renombrarlo con lStatusImage" />
+    <MESSAGE value="Cambiar los estados de etiquetas a imágenes. Añadir las imágenes a la carpeta sources y ajustar su tamaño al textfield." />
+    <MESSAGE value="Intercambiar entre etiquetas e imágenes según sea el caso que se elija para el estado." />
+    <option name="LAST_COMMIT_MESSAGE" value="Intercambiar entre etiquetas e imágenes según sea el caso que se elija para el estado." />
   </component>
 </project>
