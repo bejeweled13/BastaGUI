@@ -117,13 +117,13 @@ public class GameView extends JFrame implements ActionListener {
         lStatusImage.setIcon(null);
         switch (status){
             case Constants.CARGANDO:
-                image = new ImageIcon(getClass().getResource("/cargando.png")).getImage();
+                image = new ImageIcon(Objects.requireNonNull(getClass().getResource("/cargando.png"))).getImage();
                 iconResized = new ImageIcon(image.getScaledInstance(300, 169, Image.SCALE_SMOOTH));
                 lStatusImage.setIcon(iconResized);
                 this.lStatus.setText("Estado");
                 break;
             case Constants.LISTO:
-                image = new ImageIcon(getClass().getResource("/esperandoLetra.png")).getImage();
+                image = new ImageIcon(Objects.requireNonNull(getClass().getResource("/esperandoLetra.png"))).getImage();
                 iconResized = new ImageIcon(image.getScaledInstance(300, 169, Image.SCALE_SMOOTH));
                 lStatusImage.setIcon(iconResized);
                 this.lStatus.setText("Estado");
@@ -134,7 +134,7 @@ public class GameView extends JFrame implements ActionListener {
                 this.tfColor.setText("");
                 break;
             case Constants.FINALIZADO:
-                image = new ImageIcon(getClass().getResource("/finalizado.png")).getImage();
+                image = new ImageIcon(Objects.requireNonNull(getClass().getResource("/finalizado.png"))).getImage();
                 iconResized = new ImageIcon(image.getScaledInstance(300, 169, Image.SCALE_SMOOTH));
                 lStatusImage.setIcon(iconResized);
                 this.lStatus.setText("Estado");
