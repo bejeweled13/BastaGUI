@@ -109,15 +109,22 @@ public class GameView extends JFrame implements ActionListener {
     }
 
     public void setStatus(int status){
-        this.lStatus.setText("Estado");
+        ImageIcon iconResized;
+        Image image;
+        lStatusImage.setText("");
+        lStatusImage.setIcon(null);
         switch (status){
             case Constants.CARGANDO:
-                this.tfStatus.setText("Cargando");
-                this.tfStatus.setBackground(Color.YELLOW);
+                image = new ImageIcon(getClass().getResource("/cargando.png")).getImage();
+                iconResized = new ImageIcon(image.getScaledInstance(300, 169, Image.SCALE_SMOOTH));
+                lStatusImage.setIcon(iconResized);
+                this.lStatus.setText("Estado");
                 break;
             case Constants.LISTO:
-                this.tfStatus.setText("Esperando letra");
-                this.tfStatus.setBackground(Color.GREEN);
+                image = new ImageIcon(getClass().getResource("/esperandoLetra.png")).getImage();
+                iconResized = new ImageIcon(image.getScaledInstance(300, 169, Image.SCALE_SMOOTH));
+                lStatusImage.setIcon(iconResized);
+                this.lStatus.setText("Estado");
                 this.tfNombre.setText("");
                 this.tfFlorFruto.setText("");
                 this.tfPais.setText("");
@@ -125,8 +132,10 @@ public class GameView extends JFrame implements ActionListener {
                 this.tfColor.setText("");
                 break;
             case Constants.FINALIZADO:
-                this.tfStatus.setText("Finalizado");
-                this.tfStatus.setBackground(Color.RED);
+                image = new ImageIcon(getClass().getResource("/finalizado.png")).getImage();
+                iconResized = new ImageIcon(image.getScaledInstance(300, 169, Image.SCALE_SMOOTH));
+                lStatusImage.setIcon(iconResized);
+                this.lStatus.setText("Estado");
         }
     }
 

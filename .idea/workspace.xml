@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dafa7f4-33d3-4e3e-93d7-b13e7d3b064f" name="Changes" comment="Cambiar tamaño de la letra en la etiqueta &quot;Basta online&quot; y &quot;Selecciona un nombre de usuario&quot; en la clase JoinView">
+    <list default="true" id="4dafa7f4-33d3-4e3e-93d7-b13e7d3b064f" name="Changes" comment="Cambiar tfStatus a JLabel y por consiguiente, renombrarlo con lStatusImage">
       <change afterPath="$PROJECT_DIR$/src/main/resources/cargando.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/cargando_.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/esperandoLetra.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/finalizado.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -44,7 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/ferga/IdeaProjects/EjercicioVentanas"
+    "last_opened_file_path": "C:/Users/ferga/IdeaProjects/BastaGUI_verdadero/src/main/resources"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -122,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702101085340</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Cambiar tfStatus a JLabel y por consiguiente, renombrarlo con lStatusImage">
+      <created>1702108595989</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702108595989</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +150,7 @@
     <MESSAGE value="Fijar el tamaño de la ventana y su alineación al centro al final del constructor en GameView y JoinView" />
     <MESSAGE value="Cambiar tamaño de letra y color en botones Unirse al Juego y Basta" />
     <MESSAGE value="Cambiar tamaño de la letra en la etiqueta &quot;Basta online&quot; y &quot;Selecciona un nombre de usuario&quot; en la clase JoinView" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambiar tamaño de la letra en la etiqueta &quot;Basta online&quot; y &quot;Selecciona un nombre de usuario&quot; en la clase JoinView" />
+    <MESSAGE value="Cambiar tfStatus a JLabel y por consiguiente, renombrarlo con lStatusImage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambiar tfStatus a JLabel y por consiguiente, renombrarlo con lStatusImage" />
   </component>
 </project>
