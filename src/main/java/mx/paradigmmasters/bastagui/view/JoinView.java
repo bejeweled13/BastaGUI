@@ -30,9 +30,11 @@ public class JoinView extends JFrame implements ActionListener {
         this.tfUsername = new JTextField();
 
         JLabel lTitle = new JLabel("Basta online");
+        lTitle.setFont(new Font("Arial", Font.BOLD, 15));
         lTitle.setHorizontalAlignment(SwingConstants.CENTER);
         JLabel lUserName = new JLabel("Selecciona un nombre de usuario");
         lUserName.setHorizontalAlignment(SwingConstants.CENTER);
+        lUserName.setFont(new Font("Arial", Font.BOLD, 15));
 
         this.add(lTitle);
         this.add(lUserName);
