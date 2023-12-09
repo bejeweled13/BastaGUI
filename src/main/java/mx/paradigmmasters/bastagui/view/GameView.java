@@ -103,7 +103,7 @@ public class GameView extends JFrame implements ActionListener {
         this.add(this.bBasta);
         this.add(this.pPoints);
 
-        this.pack();
+
     }
 
     public void setStatus(int status){

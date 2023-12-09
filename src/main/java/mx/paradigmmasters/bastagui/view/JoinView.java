@@ -38,7 +38,7 @@ public class JoinView extends JFrame implements ActionListener {
         this.add(this.tfUsername);
         this.add(this.bJoin);
 
-        this.pack();
+
     }
 
     @Override

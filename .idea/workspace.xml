@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dafa7f4-33d3-4e3e-93d7-b13e7d3b064f" name="Changes" comment="Definir tamaño y centrar la ventana">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/paradigmmasters/bastagui/view/GameView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/paradigmmasters/bastagui/view/GameView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/paradigmmasters/bastagui/view/JoinView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/paradigmmasters/bastagui/view/JoinView.java" afterDir="false" />
-    </list>
+    <list default="true" id="4dafa7f4-33d3-4e3e-93d7-b13e7d3b064f" name="Changes" comment="Usar opción más segura para el ícono de la ventana" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702089436288</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Usar opción más segura para el ícono de la ventana">
+      <created>1702091456419</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702091456419</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +104,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cambiar ícono de la ventana" />
     <MESSAGE value="Definir tamaño y centrar la ventana" />
-    <option name="LAST_COMMIT_MESSAGE" value="Definir tamaño y centrar la ventana" />
+    <MESSAGE value="Usar opción más segura para el ícono de la ventana" />
+    <option name="LAST_COMMIT_MESSAGE" value="Usar opción más segura para el ícono de la ventana" />
   </component>
 </project>
