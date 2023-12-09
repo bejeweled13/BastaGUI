@@ -31,6 +31,9 @@ public class GameView extends JFrame implements ActionListener {
         this.setVisible(true);
         this.setLayout(new GridLayout(4,1));
 
+        ImageIcon icon = new ImageIcon(getClass().getResource("/icono.png"));
+        setIconImage(icon.getImage());
+
         // Initialize all JPanels
         this.pStatus = new JPanel(new GridLayout(1, 2));
         this.pAnswers = new JPanel(new GridLayout(6,3));

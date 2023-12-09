@@ -19,6 +19,9 @@ public class JoinView extends JFrame implements ActionListener {
         this.setLayout(new GridLayout(4,1));
         this.setLocationRelativeTo(null);
 
+        ImageIcon icon = new ImageIcon(getClass().getResource("/icono.png"));
+        setIconImage(icon.getImage());
+
         this.bJoin = new JButton("Unirse al juego");
         this.bJoin.addActionListener(this);
         this.tfUsername = new JTextField();
